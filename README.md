@@ -14,7 +14,7 @@ To manage packages and create virtual environments, I downloaded Miniconda from 
 ```markdown
 ## Create Environment in Miniconda
 Using the Anaconda prompt, I created a new Conda environment named "myenv" using the following command:
-```bash
+
 conda create --name myenv
 ```
 
