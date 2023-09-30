@@ -97,6 +97,6 @@ for link in s_1:
             print(png_download, title)
     else:
         print('already download, skipping ', main_title)
-
+```
 # Thank you, if you have any suggestion please recreate the code
 In my code, I added a file location, counter and implemented a check to see if the file has already been downloaded.
