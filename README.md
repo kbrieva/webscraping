@@ -46,7 +46,7 @@ With the "myenv" environment activated, you can run Jupyter Notebook by simply t
 ```bash
 jupyter notebook # I use Jupyter notebook to check every single code
 ```
-
+## Program your code
 ```bash
 import requests as req
 from bs4 import BeautifulSoup as bea
