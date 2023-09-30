@@ -3,7 +3,7 @@
 I used this video to learn, check the [link](https://www.youtube.com/watch?v=Al20Pyuc5Ck) for the video tuts
 
 
-```markdown
+
 # Python Webscraping
 
 ## Install Python
@@ -11,7 +11,7 @@ I installed the latest Python version, which is Python 3.11.4.
 
 ## Install Miniconda
 To manage packages and create virtual environments, I downloaded Miniconda from [here](https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html).
-
+```markdown
 ## Create Environment in Miniconda
 Using the Anaconda prompt, I created a new Conda environment named "myenv" using the following command:
 ```bash
