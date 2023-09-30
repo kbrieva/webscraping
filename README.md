@@ -21,7 +21,7 @@ conda create --name myenv
 ## Activate the Environment
 After creating the environment, I activated it with the following command:
 ```bash
-conda activate myenv # **myenv** is the name of my environment
+conda activate myenv 
 ```
 
 ## Install Libraries
@@ -99,4 +99,4 @@ for link in s_1:
         print('already download, skipping ', main_title)
 
 # Thank you, if you have any suggestion please recreate the code
-In my code, I added a file location counter and implemented a check to see if the file has already been downloaded.
+In my code, I added a file location, counter and implemented a check to see if the file has already been downloaded.
