@@ -55,13 +55,15 @@ import time
 import shutil
 import random
 
+headers = {'User-Agents':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'} # Adding user agent
+
 main_url = "https://www.pngmart.com/sitemap.xml"
 random_delay = random.uniform(1, 20) #I use a delay to prevent overloading the server when making requests to download PNG files.
 file_path = 'PNG' #this is the location of the downloaded file.
 
 def url_get(url): #in this function I use the requests and BeautifulSoup
     try:
-        response = req.get(url) 
+        response = req.get(url, headers=headers) # I add the user agent here
         if response.status_code == 200:
             soup = bea(response.text, 'html.parser')
             return soup
